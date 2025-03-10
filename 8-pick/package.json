@@ -1,0 +1,16 @@
+{
+  "name": "5-map",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Alex",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "typescript": "^5.7.3"
+  }
+}
