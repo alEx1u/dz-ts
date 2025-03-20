@@ -1,0 +1,16 @@
+{
+  "name": "10-allow-func",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Alex",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js",
+    "build" : "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
+}
