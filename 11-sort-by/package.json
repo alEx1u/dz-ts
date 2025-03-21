@@ -1,0 +1,17 @@
+{
+  "name": "11-sort-by",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Alex",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "sort-by": "^1.2.0",
+    "typescript": "^5.8.2"
+  }
+}
