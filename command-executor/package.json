@@ -11,6 +11,7 @@
     "start": "node dist/app.js"
   },
   "dependencies": {
+    "grammy": "^1.35.1",
     "inquirer": "^12.5.0"
   },
   "devDependencies": {
