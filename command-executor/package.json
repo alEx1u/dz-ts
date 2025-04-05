@@ -1,0 +1,32 @@
+{
+  "name": "command-executor",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Alex",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "lint": "npx eslint ./src --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "npx eslint ./src --ext .ts,.tsx,.js,.jsx --fix",
+    "format": "prettier --config .prettierrc --write ./src/**/*.{ts,tsx,js,jsx}",
+    "format:check": "prettier --check ./src/**/*.{ts,tsx,js,jsx}"
+  },
+  "dependencies": {
+    "grammy": "^1.35.1",
+    "inquirer": "^12.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.13.14",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.29.0"
+  }
+}
